@@ -1,0 +1,32 @@
+
+.cards {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+}
+.widget {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+.close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+.close:hover {
+  color: red;
+}

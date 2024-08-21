@@ -1,0 +1,162 @@
+-html {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body {
+  background-color: white;
+  font-family: 'Roboto Slab';
+  color:#fff;
+}
+
+.wrapper {
+  height: 900px;
+  width: 700px;
+  margin: 40px auto;
+  background-color: white;
+}
+
+.quiz-box {
+  height: 100%;
+  border: 3px solid rgba(255, 255, 255, 1);
+  background-color: hotpink;
+  border-radius: 0px 10%;
+  box-shadow: 0px 0px 13px 2px rgb(0, 0, 0);
+
+}
+
+.ansInput {
+  margin-bottom: 40px;
+}
+
+.navigation-buttons {
+  text-align: center;
+  padding: 10px 0px;
+  float: right;
+}
+
+.name-box {
+  text-align: center;
+  padding: 10%;
+  height: 100%;
+}
+
+.name-box span {
+  font-weight: 500;
+  font-size: 3em;
+}
+
+#name-input-box {
+  height: 45px;
+  padding: 0;
+  margin-top: 20px;
+  font: 400 3rem 'Roboto Slab';
+  letter-spacing: 0.025em;
+  border: none;
+  background: transparent;
+  text-align: center;
+  outline: none;
+  border-bottom: solid thin rgba(238, 238, 238, 0.12);
+}
+
+button {
+  border: none;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border-radius: 0px 10px;
+  background: transparent;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 0px 10px;
+}
+
+button:disabled{
+  display:none;
+}
+
+#name-submit-button {
+  margin-top: 30px;
+}
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
+
+@font-face {
+  font-family: stark;
+  src: url(https://fonts.googleapis.com/css?family=Unica+One);
+}
+
+body {
+  background: url(https://img.wonderhowto.com/img/01/26/63545955986014/0/hack-like-pro-advanced-nmap-for-reconnaissance.1280x600.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+div h1 {
+  text-align: center;
+  color: #f9fffc;
+  font-family: 'Russo One', sans-serif;
+  font-size: .01px;
+}
+div #quiz1 {
+  font-size: 30px;
+  color: #e13436;
+  text-shadow: 3px 3px 5px #cea160;
+  opacity: 0.88
+}
+div #quiz {
+  font-size: 90px;
+  color: #e13436;
+  text-shadow: 3px 3px 5px #cea160;
+  opacity: 0.88
+}
+
+#questions {
+  margin: 0% 10%
+}
+#questions p {
+  color: white;
+  font-size: 18px;
+  margin-top: 3%;
+  font-family: 'stark'
+}
+
+#questions input {
+  width: 30%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  opacity: 0.7;
+
+}
+
+#submit {
+  margin: 3% 40%;
+  border: transparent;
+  border-radius: 4px;
+  opacity: 0.7;
+  font-size: 20px;
+  background-color: #c30a0c;
+  color: #f4dd90;
+}
+
+.wrong {
+  color: red !important
+}
+
+
+.correct, .incorrect {
+  opacity: 0;
+}
+.yes {
+  opacity: 1;
+  color: #f9fffc;
+  text-shadow: 3px 3px 5px #cea160;
+}
+.no {
+  opacity: 1;
+  color: #cea160;
+  text-shadow: 3px 3px 5px #f9fffc;
+}
+
+

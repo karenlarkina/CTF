@@ -1,0 +1,245 @@
+.canvas_img{
+  height: auto;
+  width: 50rem;
+}
+
+.navbar-nav{
+  width: 100%;
+}
+
+.nav-right{
+  width: 100%;
+  float: right;
+  text-align: right;
+}
+
+@media only screen and (max-width: 600px)
+{
+  .canvas_img{
+    height: auto;
+    width: 250px;
+  }
+}
+
+#particles-js {
+  position : absolute;
+  width:100%;
+  height:100%;
+}
+
+.transparent-background {
+  background-color: transparent; /* Adjust the alpha (fourth value) for transparency */
+}
+
+/* these  */
+/* Reset */
+.node-row1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+  background-color: transparent;
+  padding: 1rem;
+}
+
+.information {
+  display: flex;
+  justify-content: normal;
+  gap: 2rem;
+  align-items: center;
+  background-color: transparent;
+  /*padding: 1rem;*/
+}
+
+.node {
+  opacity: 0.8;
+  background-color: #0a4862;
+  height: 90px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #66c2ff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: snow;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.node2 {
+  opacity: 0.8;
+  background-color: #986edf;
+  height: 90px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #cea160;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #020203;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.node:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  margin-bottom: 5rem;
+}
+
+/*#submit-button {*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*}*/
+
+#submit-btn {
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  margin-left: 8rem;
+}
+
+#ready-set-go {
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.node:hover {
+  background-color: #0a4567;
+  height: 5rem;
+  width: 10rem;
+}
+
+/*.node:active {*/
+/*  background-color: #0b2344;*/
+/*  filter: drop-shadow(5px 5px 5px black);*/
+/*  height: 5rem;*/
+/*  width: 10rem;*/
+/*}*/
+
+.panel.panel-default{
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #714cdf;
+  background-color: #0c0d16;
+}
+
+.metallic-effect {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px; /* Adjust as needed */
+  background: linear-gradient(to right, #444 0%, #666 25%, #444 50%, #666 75%, #444 100%);
+  z-index: 0;
+}
+
+.widget {
+  max-height: 75%;
+  min-width: 20rem;
+  margin-right: 2rem;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: darkslategrey;
+  border: 2px solid #2d3748;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(45, 55, 72, 0.1);
+  overflow: scroll;
+  z-index: 1000;
+  justify-content: center;
+}
+
+.widget2 {
+  max-height: 75%;
+  min-width: 20rem;
+  margin-right: 2rem;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #af73e3;
+  border: 2px solid #2d3748;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(45, 55, 72, 0.1);
+  overflow: scroll;
+  z-index: 1000;
+  justify-content: center;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: red;
+}
+
+.text-success {
+  color: yellow !important;
+}
+
+.solved
+{
+  background-color: #282a38 !important;
+}
+
+#svgContainer {
+  z-index: -10;
+  position:absolute;
+}
+
+.mb-10{
+  margin-bottom: 6rem !important;
+}
+
+.col-xl-6 {
+  margin-left: 0rem;
+  margin-right: 0rem;
+  flex: 100%;
+  max-width: 100%;
+}
+
+.row {
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
+a:focus {
+  outline:none;
+}
+a::-moz-focus-inner {
+  border:0;
+}
+/* CLOCK */
+.countdown-timer {
+  zoom: 0.5;
+  -moz-transform: scale(0.5);
+}
+
+.footer img{
+  width: 50rem;
+  padding: 30px;
+}
+
+.vim-caret {
+  color: lightyellow;
+}
